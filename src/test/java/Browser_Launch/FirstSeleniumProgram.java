@@ -20,7 +20,7 @@ public class FirstSeleniumProgram {
 		WebDriverManager.chromedriver().setup();
      WebDriver driver = new ChromeDriver();
      
-      
+      //i have added a comment to check the commit function of git
      
      driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(5)); 
      
